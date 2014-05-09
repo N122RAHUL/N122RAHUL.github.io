@@ -1,0 +1,120 @@
+body
+{
+background-image:url('o.jpg');
+opacity:0.8;
+}
+img
+{
+padding:0;
+width:200px;
+height:200px;
+}
+input
+{
+width:195px;
+color:black;
+}
+#c_one
+{
+width:150px;
+}
+#c_two
+{
+height:1000px;
+width:1000px;
+}
+div.heading
+{
+background-image:url('i.jpg');
+color:springGreen;
+height:180px;
+width:1000px;
+text-align:center;
+box-shadow:20px 20px 5px black;
+border:2px solid;
+border-radius:25px;
+text-shadow:10px 10px 10px red;
+font-size:20px;
+}
+img
+{
+border:2px solid;
+border-radius:25px;
+}
+h1
+{
+text-align:center;
+}
+h3.one
+{
+text-align:left;
+}
+h3.two
+{
+text-align:right;
+}
+div.three
+{
+border:2px solid;
+border-radius:25px;
+}
+td.r_two
+{
+width:980px;
+box-shadow:20px 20px 5px black;
+color:black;
+border-radius:25px;
+text-wrap:word-break;
+font-size:20px;
+letter-spacing:2px;
+font-family:"Arial";
+-webkit-animation-name: myfirst;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: 2s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-play-state : running
+}
+
+@-webkit-keyframes myfirst
+{
+0% {background:yellow;}
+25%  {background: red;}
+50%  {background: blue;}
+100% {background: green;}
+}
+table.links
+{
+height:50px;
+width:100%;
+font-size:20px;
+}
+a
+{
+text-decoration:none;
+}
+a:link
+ {
+ color:purple;
+ }      
+a:visited 
+{
+color:blue;
+}  
+a:hover 
+{
+color:yellow;
+}  
+a:active 
+{
+color:brown;
+}  
+#footer
+{
+background-color:black;
+color:white;
+text-align:center;
+font-size:15px;
+letter-spacing:2px;
+}
